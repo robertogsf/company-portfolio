@@ -7,7 +7,7 @@ Sitio estatico para GitHub Pages de una empresa desarrolladora de software.
 El boton de WhatsApp se configura en `script.js`:
 
 ```js
-const WHATSAPP_NUMBER = "5355555555";
+const WHATSAPP_NUMBER = "15029156361";
 ```
 
 Usa el numero en formato internacional, sin `+`, espacios ni guiones.

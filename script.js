@@ -1,4 +1,4 @@
-const WHATSAPP_NUMBER = "5355555555";
+const WHATSAPP_NUMBER = "15029156361";
 const WHATSAPP_MESSAGE = "Hola, quiero desarrollar un proyecto de software y me gustaria coordinar una consulta.";
 
 const nav = document.querySelector("[data-nav]");

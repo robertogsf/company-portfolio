@@ -74,6 +74,7 @@ a {
   display: inline-flex;
   align-items: center;
   gap: 10px;
+  min-width: 0;
   font-weight: 800;
 }
 
@@ -111,6 +112,7 @@ a {
 
 .nav-toggle {
   display: none;
+  flex: 0 0 auto;
   width: 42px;
   height: 42px;
   border: 0;
@@ -410,7 +412,9 @@ h2 {
 
 .whatsapp-btn {
   display: grid;
+  width: max-content;
   min-width: 240px;
+  max-width: 100%;
   padding: 18px 20px;
   border-radius: 8px;
   background: var(--accent);
@@ -566,6 +570,18 @@ h2 {
   }
 
   .whatsapp-btn {
+    width: 100%;
     min-width: 0;
+  }
+}
+
+@media (max-width: 380px) {
+  .brand span:last-child {
+    font-size: 0.94rem;
+  }
+
+  .site-header {
+    gap: 10px;
+    padding: 10px;
   }
 }
